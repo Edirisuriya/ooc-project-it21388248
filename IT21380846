@@ -1,0 +1,52 @@
+#include<Magazing.h>
+#include <iostream>
+
+
+
+
+void Magazine::Magazine(char M_ID, string M_Name,  string M_ Des, float Price)
+{
+	Magazine_ID=  M_ID;
+	Magazine_Name= M_Name;
+	Magazine_ Description= M_ Des;
+	Price= Price;  
+}
+
+void Magazine::getMagazineDetails()
+{
+
+}
+
+void Magazine::updateMagazineDetails()
+{
+
+}
+
+#include<Delivery_Staf.h>
+#include <iostream>
+
+
+
+ void Delivery_Staff::setDelivery_Staff(char DS_ID,string Name,string s_type,int C_Num,char E_Address)  
+{
+	Delivery_Staff_ID= DS_ID;
+	Name= Name;
+	staff_type= s_type;
+	Contact_Number= C_Num;
+	Email_Address= E_Address;
+	
+}
+
+void Delivery_Staff::getDetails()
+{
+
+  
+}
+
+void Delivery_Staff::updateDetails()
+{
+	
+}
+
+  
+  
